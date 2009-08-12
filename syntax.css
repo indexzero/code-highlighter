@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+ Syntax Highlighting - contributed by James Wilford
+ Closely matches TextMate's "All Hallow's Eve" theme
+ --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+ For Dan Webb's unobtrusive code highlighter
+ --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+ General
+ --------------------------------------------------------------*/
+#content pre code { color: white; }
+#content code span.comment   { color: #9933cc;  }
+#content code span.string    { color: #66cc33;  }
+#content code span.keywords  { color: #3387cc;  }
+
+/*--------------------------------------------------------------
+ Ruby
+ --------------------------------------------------------------*/
+#content pre code.ruby { color: white; }
+#content code.ruby span.comment   { color: #9933cc;  }
+#content code.ruby span.brackets  { color: #fff;     }
+#content code.ruby span.string    { color: #66cc33;  }
+#content code.ruby span.keywords  { color: #3387cc;  }
+#content code.ruby span.symbol    { color: #cc7833;  }
+#content code.ruby span.defname   { color: #fff;     }
+#content code.ruby span.erb       { background: #333;}
+
+/*--------------------------------------------------------------
+ XAML
+ --------------------------------------------------------------*/
+#content pre code.silverlight { color: #D9D9D9; }
+#content code.xaml span.comment   { color: #73CF3A;  }
+#content code.xaml span.string    { color: #00B6D9;  }
+#content code.xaml span.tags      { color: #D12D37;  }
+#content code.xaml span.property  { color: #D12D37;  }
+#content code.xaml span.attribute { color: #F56E3D;  }
+#content code.xaml span.extension { color: #71910F;  }
+
+/*--------------------------------------------------------------
+ C#
+ --------------------------------------------------------------*/
+#content pre code.sharp { color: white; }
+#content code.csharp span.comment   { color: #66cc33;  }
+#content code.csharp span.string    { color: #DA1328;  }
+#content code.csharp span.keywords  { color: #3387cc;  }
+
+/*--------------------------------------------------------------
+ HTML
+ --------------------------------------------------------------*/
+#content pre code.html { color: white; }
+#content code.html span.comment   { color: #71910F;  }
+#content code.html span.string    { color: #3BB0D9;  }
+#content code.html span.tag       { color: #DA1328;  }
+#content code.html span.doctype   { color: #66cc33;  }
+#content code.html span.attribute { color: #DE4E1B;  }
+
+/*--------------------------------------------------------------
+ Javascript
+ --------------------------------------------------------------*/
+#content pre code.javascript { color: white; }
+#content code.javascript span.comment   { color: #66cc33;  }
+#content code.javascript span.string    { color: #DA1328;  }
+#content code.javascript span.keywords  { color: #3387cc;  }
+#content code.javascript span.brackets  { color: #DE4E1B;  }
+#content code.javascript span.global    { color: #3387cc;  }
+
+/*--------------------------------------------------------------
+ Radius
+ --------------------------------------------------------------*/
+#content pre code.radius { color: white; }
+#content code.radius span.tag       { color: #DA1328; }
+#content code.radius span.attribute { color: #DE4E1B; }
+#content code.radius span.comment   { color: #71910F; }
+#content code.radius span.value     { color: #3BB0D9; }
+
+/*--------------------------------------------------------------
+ CSS
+ --------------------------------------------------------------*/
+ #content pre code.css { color: white; }
+ #content code.css span.comment   { color: #66cc33; }
+ #content code.css span.selector  { color: #DA1328; }
+ #content code.css span.property  { color: #3BB0D9; }
+ #content code.css span.unit      { color: #DE4E1B; }
+ #content code.css span.url       { color: #71910F; }
